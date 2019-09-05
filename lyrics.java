@@ -7,7 +7,7 @@ public class lyrics {
 	
 	public static void main(String[] args) {
 		
-		String song, singer, url;
+	String song, singer, url;
         Scanner sc = new Scanner(System.in);
         Scanner sr = new Scanner(System.in);
         System.out.println("Enter the song name : ");
@@ -15,7 +15,7 @@ public class lyrics {
         System.out.println("Enter the singer name : ");
         singer = sr.nextLine();
         singer = singer.replaceAll(" ", "_");
-        System.out.println(singer);
+        
         url = "http://lyrics.wikia.com/wiki/";
         url = url + singer;
         url = url + ':';
